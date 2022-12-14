@@ -125,7 +125,7 @@
         <dependency>
             <groupId>org.zeroturnaround</groupId>
             <artifactId>zt-exec</artifactId>
-            <version>1.10</version>
+            <version>1.12</version>
         </dependency>
         <dependency>
             <groupId>net.sourceforge.plantuml</groupId>
@@ -512,8 +512,7 @@
                                     <target>
                                         <echo message="${project.build.directory}"/>
                                         <mkdir dir="${project.build.directory}"/>
-                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip"
-                                             basedir="${project.build.directory}/appassembler/">
+                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip" basedir="${project.build.directory}/appassembler/">
                                         </zip>
                                     </target>
                                 </configuration>
