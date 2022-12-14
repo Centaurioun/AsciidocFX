@@ -211,7 +211,7 @@
         <dependency>
             <groupId>com.ibm.icu</groupId>
             <artifactId>icu4j-charset</artifactId>
-            <version>71.1</version>
+            <version>72.1</version>
         </dependency>
         
         <dependency>
@@ -512,8 +512,7 @@
                                     <target>
                                         <echo message="${project.build.directory}"/>
                                         <mkdir dir="${project.build.directory}"/>
-                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip"
-                                             basedir="${project.build.directory}/appassembler/">
+                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip" basedir="${project.build.directory}/appassembler/">
                                         </zip>
                                     </target>
                                 </configuration>
