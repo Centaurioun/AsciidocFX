@@ -135,7 +135,7 @@
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-codec</artifactId>
-            <version>1.10</version>
+            <version>1.16</version>
         </dependency>
         <dependency>
             <groupId>de.tototec</groupId>
@@ -512,8 +512,7 @@
                                     <target>
                                         <echo message="${project.build.directory}"/>
                                         <mkdir dir="${project.build.directory}"/>
-                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip"
-                                             basedir="${project.build.directory}/appassembler/">
+                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip" basedir="${project.build.directory}/appassembler/">
                                         </zip>
                                     </target>
                                 </configuration>
