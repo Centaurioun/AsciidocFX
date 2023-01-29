@@ -249,7 +249,7 @@
         <dependency>
             <groupId>net.lingala.zip4j</groupId>
             <artifactId>zip4j</artifactId>
-            <version>2.11.2</version>
+            <version>2.11.3</version>
         </dependency>
 
         <!--  Uncomment 'scope' for local run -->
@@ -512,8 +512,7 @@
                                     <target>
                                         <echo message="${project.build.directory}"/>
                                         <mkdir dir="${project.build.directory}"/>
-                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip"
-                                             basedir="${project.build.directory}/appassembler/">
+                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip" basedir="${project.build.directory}/appassembler/">
                                         </zip>
                                     </target>
                                 </configuration>
