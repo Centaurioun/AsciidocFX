@@ -580,8 +580,7 @@
                                     <target>
                                         <echo message="${project.build.directory}"/>
                                         <mkdir dir="${project.build.directory}"/>
-                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip"
-                                             basedir="${project.build.directory}/appassembler/">
+                                        <zip destfile="${project.build.directory}/asciidocfx-${project.version}.zip" basedir="${project.build.directory}/appassembler/">
                                         </zip>
                                     </target>
                                 </configuration>
